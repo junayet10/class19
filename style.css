@@ -1,0 +1,73 @@
+/*CSS COMMON*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*CSS COMMON*/
+
+#light .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: aqua;
+}
+#light button{
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+}
+#clr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color:rgb(43, 45, 151);
+}
+#clr button{
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+#range .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color:rgb(229, 6, 196);
+    color: #fff;
+    flex-direction: column;
+}
+#range h1{
+    padding: 20px;
+}
+
+#range input{
+    padding: 20px;
+    margin: 30px;
+}
+#range .box-body{
+    background-color: black;
+}
